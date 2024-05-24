@@ -1,3 +1,3 @@
-let numbers: number[] = [];
-numbers.forEach(n => n.toString)
+//1, 'John'
+let user: [number, string] = [1, 'John'];
 
