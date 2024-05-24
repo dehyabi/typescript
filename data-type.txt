@@ -1,0 +1,20 @@
+javascript:
+- number
+- string
+- boolean
+- null
+- undefined
+- object
+
+typescript:
+- number
+- string
+- boolean
+- null
+- undefined
+- object
+- any
+- unknown
+- never
+- enum
+- tuple
