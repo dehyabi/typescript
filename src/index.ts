@@ -1,3 +1,8 @@
-//1, 'John'
-let user: [number, string] = [1, 'John'];
+// const small = 1;
+// const medium = 2;
+// const large = 3;
 
+//PascalCase
+const enum Size {Small = 1, Medium, Large};
+let mySize: Size = Size.Medium;
+console.log(mySize);
