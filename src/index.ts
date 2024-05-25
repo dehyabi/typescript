@@ -1,5 +1,5 @@
 type Customer = {
-    birthday: Date
+    birthday?: Date
 }
 
 function getCustomer(id: number): Customer | null | undefined {
@@ -8,4 +8,15 @@ function getCustomer(id: number): Customer | null | undefined {
 
 let customer = getCustomer(1);
 // if (customer !== null && customer !== undefined)
-console.log(customer?.birthday)
+
+// optional property access operator
+console.log(customer?.birthday?.getFullYear());
+
+// optional element access operator
+// customers?.[0]
+
+// optional call
+
+// let log: any = (message: string) => console.log(message);
+let log: any = null;
+log?.('a');
