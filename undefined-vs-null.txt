@@ -1,0 +1,7 @@
+null == undefined // true
+null === undefined // false
+
+It means null is equal to undefined but not identical.
+
+- When we define a variable to undefined then we are trying to convey that the variable does not exist
+- When we define a variable to null then we are trying to convey that the variable is empty.
